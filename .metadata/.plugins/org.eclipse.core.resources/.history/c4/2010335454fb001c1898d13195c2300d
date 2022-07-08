@@ -1,0 +1,21 @@
+package com.StepDefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import com.base.Base;
+import com.pom.PageObjectManager;
+import com.runnerFile.Runner_File;
+
+public class StepDefinition extends Base  {
+
+public static WebDriver driver = Runner_File.driver;	
+
+
+public static PageObjectManager pom =new  PageObjectManager(driver);
+
+@Given("username")
+public
+
+
+
+}

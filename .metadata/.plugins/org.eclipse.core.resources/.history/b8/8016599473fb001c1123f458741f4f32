@@ -1,0 +1,48 @@
+package com.runnerFile;
+
+import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import com.file.FileReadManager;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/java/feautrfile/LoginScenario.feature", 
+                  glue = "com.StepDefinition",
+                  tags = {"@regression_run","~@run"},
+                  monochrome = true,
+                  strict = true,
+                  dryRun = false
+		
+		
+		)
+public class Runner_File {
+
+	public static WebDriver driver;
+	
+	
+	@BeforeClass
+	public static void  setup() {
+		
+		String browser = FileReadManager.getInstanceFRM().getinstanceCRM().get_Browser();
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+}

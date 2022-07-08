@@ -1,0 +1,13 @@
+package com.pom;
+
+import org.openqa.selenium.WebDriver;
+
+public class PageObjectModel {
+public static WebDriver driver;
+	public PageObjectModel(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		this.driver = driver;
+		
+	}
+
+}

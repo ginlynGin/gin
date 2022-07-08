@@ -1,0 +1,7 @@
+package com.StepDefinition;
+
+import com.base.Base;
+
+public class Step extends Base  {
+
+}

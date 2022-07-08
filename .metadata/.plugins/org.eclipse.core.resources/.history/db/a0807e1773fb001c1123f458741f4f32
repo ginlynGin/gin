@@ -1,0 +1,18 @@
+package com.runnerFile;
+
+import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/java/feautrfile/LoginScenario.feature", 
+                  glue = "com.StepDefinition")
+public class Runner_File {
+
+	public static WebDriver driver;
+	
+		
+}
